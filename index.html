@@ -301,7 +301,7 @@
                 abstract.show = function () {
                     this._div.classList.remove("abstract");
                     this._div.classList.add("abstractUncollapsed");
-                    this._div.innerHTML = 'Vic - 2025 Projection<br>Public Urban Green Space Accessibility';
+                    this._div.innerHTML = 'Vic, Spain<br>Large Public Urban Green Space Accessibility';
             };
             abstract.addTo(map);
             var abstract2 = new L.Control({ 'position': 'topright' });
@@ -314,11 +314,11 @@
                 abstract2.show = function () {
                     this._div.classList.remove("abstract");
                     this._div.classList.add("abstract2");
-                    this._div.innerHTML = "79.37% of Vic's estimated 2025 population have access to public urban green space of area ≥1 ha within 500 m pedestrian network distance";
+                    this._div.innerHTML = "79.93% of Vic's estimated 2025 population have access to large public urban green space of area ≥1 ha within 500 m pedestrian network distance";
                 };
                 abstract2.addTo(map);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/UGS_Vic_PopGridWithinServiceArea_4.png" /> Access to public urban green space<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of area ≥1 hectare within 500 m<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pedestrian network distance': layer_UGS_Vic_PopGridWithinServiceArea_4,'<img src="legend/PublicUrbanGreenSpace_3.png" /> Public Urban Green Space': layer_PublicUrbanGreenSpace_3,'<img src="legend/UrbanStudyRegion_2.png" /> Urban Study Region': layer_UrbanStudyRegion_2,"ESRI World Imagery": layer_ESRIWorldImagery_1,"OSM Standard": layer_OSMStandard_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'<img src="legend/UGS_Vic_PopGridWithinServiceArea_4.png" /> Access to large public urban green space<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of area ≥1 hectare within 500 m<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pedestrian network distance': layer_UGS_Vic_PopGridWithinServiceArea_4,'<img src="legend/PublicUrbanGreenSpace_3.png" /> Large Public Urban Green Space': layer_PublicUrbanGreenSpace_3,'<img src="legend/UrbanStudyRegion_2.png" /> Urban Study Region': layer_UrbanStudyRegion_2,"ESRI World Imagery": layer_ESRIWorldImagery_1,"OSM Standard": layer_OSMStandard_0,},{collapsed:false}).addTo(map);
         setBounds();
         </script>
     </body>
